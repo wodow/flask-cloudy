@@ -39,11 +39,14 @@ setup(
     packages=find_packages(),
     install_requires=[
         "Flask>=0.10.1",
-        "apache-libcloud==0.20.0",
         "lockfile==0.10.2",
         "shortuuid==0.1",
         "six==1.9.0",
-        'python-slugify==0.1.0'
+        'python-slugify==0.1.0',
+        "apache-libcloud",
+    ],
+    dependency_links=[
+        "git+ssh://git@github.com/wodow/libcloud.git@cb357f05761149ea531072bb738dcbe5227dd38e#egg=apache-libcloud",
     ],
 
     keywords=["flask", "s3", "aws", "cloudfiles", "storage", "azure", "google", "cloudy"],
