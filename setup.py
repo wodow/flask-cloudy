@@ -19,7 +19,7 @@ Supported storage:
 from setuptools import setup, find_packages
 
 __NAME__ = "Flask-Cloudy"
-__version__ = "0.1dev"
+__version__ = "0.2dev"
 __author__ = "Mardix"
 __license__ = "MIT"
 __copyright__ = "2016"
@@ -46,7 +46,7 @@ setup(
         "apache-libcloud==0.1dev",
     ],
     dependency_links=[
-        "git+ssh://git@github.com/wodow/libcloud.git@fd99ff99fd47f2c5cac514dfffd35483eb061b7a#egg=apache-libcloud-0.1dev",
+        "git+ssh://git@github.com/wodow/libcloud.git@3dfdc6e14228c7769c72ef86f6e63acf1e9daaf2#egg=apache-libcloud-0.2dev",
     ],
 
     keywords=["flask", "s3", "aws", "cloudfiles", "storage", "azure", "google", "cloudy"],
