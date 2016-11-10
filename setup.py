@@ -46,7 +46,7 @@ setup(
         "apache-libcloud",
     ],
     dependency_links=[
-        "git+ssh://git@github.com/wodow/libcloud.git@cb357f05761149ea531072bb738dcbe5227dd38e#egg=apache-libcloud",
+        "git+ssh://git@github.com/wodow/libcloud.git@dd5b61bca51519f8c8ee8c5168b0901406755bc1#egg=apache-libcloud",
     ],
 
     keywords=["flask", "s3", "aws", "cloudfiles", "storage", "azure", "google", "cloudy"],
