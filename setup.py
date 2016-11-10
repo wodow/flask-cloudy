@@ -43,10 +43,10 @@ setup(
         "shortuuid==0.1",
         "six==1.9.0",
         'python-slugify==0.1.0',
-        "apache-libcloud",
+        "apache-libcloud==devwodow1",
     ],
     dependency_links=[
-        "git+ssh://git@github.com/wodow/libcloud.git@dd5b61bca51519f8c8ee8c5168b0901406755bc1#egg=apache-libcloud",
+        "git+ssh://git@github.com/wodow/libcloud.git@dd5b61bca51519f8c8ee8c5168b0901406755bc1#egg=apache-libcloud-devwodow1",
     ],
 
     keywords=["flask", "s3", "aws", "cloudfiles", "storage", "azure", "google", "cloudy"],
