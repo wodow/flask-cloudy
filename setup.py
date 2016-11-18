@@ -41,7 +41,7 @@ setup(
         "Flask>=0.10.1",
         "lockfile==0.10.2",
         "shortuuid==0.1",
-        "six==1.9.0",
+        "six>=1.9.0",
         'python-slugify==0.1.0',
         "apache-libcloud==0.2dev",
     ],
