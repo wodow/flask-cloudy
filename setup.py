@@ -43,7 +43,7 @@ setup(
         "shortuuid==0.1",
         "six==1.9.0",
         'python-slugify==0.1.0',
-        "apache-libcloud==0.1dev",
+        "apache-libcloud==0.2dev",
     ],
     dependency_links=[
         "git+ssh://git@github.com/wodow/libcloud.git@3dfdc6e14228c7769c72ef86f6e63acf1e9daaf2#egg=apache-libcloud-0.2dev",
